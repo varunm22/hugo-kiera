@@ -85,6 +85,7 @@ time {
 
 #container nav #title {
   font-size: 1.2rem;
+  margin-right: 1em;
 }
 
 #container nav ul {
@@ -96,7 +97,7 @@ time {
 }
 
 #container nav ul li {
-  margin-left: 1em;
+  margin-right: 1em;
 }
 
 #container nav ul li a.active {
