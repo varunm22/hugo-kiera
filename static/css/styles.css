@@ -71,11 +71,16 @@ time {
 }
 
 #container nav {
+  background-color: #fcfcfc;
   border-bottom: solid 3px #cecece;
-  padding-top : 3em;
+  padding-top : 1em;
   padding-bottom: 0.0em;
   font-family: "Ruda", sans-serif;
   font-size: 1.1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
 }
 
 #container nav #title {
@@ -99,6 +104,7 @@ time {
 }
 
 #container main {
+  margin-top: 2.4em;
   flex: 1 0 0;
   line-height: 1.5;
   font-size: 1.2rem;
@@ -229,6 +235,11 @@ a {
 .full-image, figure.full img, img[src*="full"] {
   width: 100%;
   box-shadow: 0 3px 3px #bbbbbb;
+}
+
+.image-simple {
+  width: 50%;
+  box-shadow: 0 0px 0px #ffffff;
 }
 
 @supports (width: 100vw) {
